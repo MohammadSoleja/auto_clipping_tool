@@ -2,6 +2,7 @@ import HeroSection from "@/components/HeroSection";
 import Features from "@/components/Features";
 import HowItWorks from "@/components/HowItWorks";
 import About from "@/components/About";
+import TryItSection from "@/components/TryItSection";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Features />
       <HowItWorks />
       <About />
+      <TryItSection />
     </main>
   );
 }
